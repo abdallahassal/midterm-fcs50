@@ -52,4 +52,9 @@ def open_nested_tab():
     # Create a nested_tab dictionary
     nested_tab = {"title": new_tab_title, "url": new_tab_url}
 
-   
+    # Create a nested_tabs list if it doesn't exist
+    tabs.setdefault(parent_tab_index, {"nested_tabs": []})
+
+    tabs[parent_tab_index]["nested_tabs"].append(nested_tab)
+    print(f"Nested tab '{new_tab_title}' opened successfully under tab '{parent_tab_index}'.")
+  
