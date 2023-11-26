@@ -23,3 +23,10 @@ def close_tab():
 # then the code attempts to delete it from the tabs dictionary. It prints the success of closure or a message if the tab is not found.
         
         
+# function to switch to a tab
+def switch_tab():
+    tab_index = int(input("Enter the index of the tab : "))
+    if tab_index in tabs:
+       print("Switched to tab " if tab_index in tabs else "Tab not found.")
+       
+       
