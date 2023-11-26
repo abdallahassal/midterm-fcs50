@@ -9,3 +9,7 @@ def open_tab():
 print("Successfully opened tab ")
 
 
+# function to close a tab
+def close_tab():
+    tab_index = int(input("Enter the index of the tab: "))
+  
