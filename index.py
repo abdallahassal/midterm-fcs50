@@ -30,3 +30,11 @@ def switch_tab():
        print("Switched to tab " if tab_index in tabs else "Tab not found.")
        
        
+# function to display all tabs
+def display_all_tabs():
+    if not tabs:
+    
+        print("No tabs are open.")
+        return
+    [print("{index}. Title: {title}, URL: {url})") for index, tab in enumerate(tabs.values(), start=1)]
+    
