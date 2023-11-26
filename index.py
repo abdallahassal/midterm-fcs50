@@ -94,3 +94,16 @@ def import_tabs(tabs):
  #Loads tabs from "tabs.json" into tabs, handles non-existent files, and provides status messages.
 
 
+# Main loop
+def main():
+     while True:
+        print("\nMenu:")
+        print("1. Open Tab")
+        print("2. Close Tab")
+        print("3. Switch Tab")
+        print("4. Display All Tabs")
+        print("5. Open Nested Tab")
+        print("6. Sort All Tabs")
+        print("7. Save Tabs")
+        print("8. Import Tabs")
+        print("9. Exit")
