@@ -39,3 +39,9 @@ def display_all_tabs():
     [print("{index}. Title: {title}, URL: {url})") for index, tab in enumerate(tabs.values(), start=1)]
     #The code prints information about open tabs (titles and URLs), or a message if there are none
     
+#function to open a nested tab
+def open_nested_tab():
+    parent_tab_index = int(input("Enter the index of the parent tab"))
+    new_tab_title = input("Enter the title of the new tab: ")
+    new_tab_url = input("Enter the URL of the new tab: ")
+   
