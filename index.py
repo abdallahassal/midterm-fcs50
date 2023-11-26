@@ -91,4 +91,6 @@ def import_tabs(tabs):
 
     print("Tabs imported ")
  #Here I used Google to solve it.
- 
+ #Loads tabs from "tabs.json" into tabs, handles non-existent files, and provides status messages.
+
+
