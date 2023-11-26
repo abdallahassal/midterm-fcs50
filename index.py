@@ -65,3 +65,5 @@ def sort_all_tabs(tabs):
     print("Sorted tabs:")
     for index, (title, url) in enumerate(sorted_tabs, start=1):
         print(f"{index}. Title: {title}, URL: {url}")
+#the code sorts a list of tabs by title and prints the sorted tabs with their index, title, and URL.
+
