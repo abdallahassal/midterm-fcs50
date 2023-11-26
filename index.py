@@ -75,4 +75,18 @@ def save_tabs(tabs):
     print("Tabs saved to 'tabs.json'.")
  #The code saves a list of tabs as a formatted JSON file named "tabs.json.
  
+ #function to import tabs
  
+
+def import_tabs(tabs):
+    file_path = "tabs.json"
+
+    if not os.path.exists(file_path):
+        print("No file found. Please open and save tabs before importing.")
+        return
+
+    with open(file_path, "r") as f:
+        tabs.clear()
+        tabs.update(json.load(f))
+
+    print("Tabs imported ")
