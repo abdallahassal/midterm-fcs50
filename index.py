@@ -90,3 +90,5 @@ def import_tabs(tabs):
         tabs.update(json.load(f))
 
     print("Tabs imported ")
+ #Here I used Google to solve it.
+ 
