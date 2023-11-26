@@ -49,4 +49,7 @@ def open_nested_tab():
         print("Error: Parent tab at index does not exist.")
         return
     
-    
+    # Create a nested_tab dictionary
+    nested_tab = {"title": new_tab_title, "url": new_tab_url}
+
+   
