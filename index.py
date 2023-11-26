@@ -19,4 +19,7 @@ def close_tab():
         print("closed successfully")
     else:
          print("Tab not found.")
+         # The user is prompted to enter an index for a tab,
+# then the code attempts to delete it from the tabs dictionary. It prints the success of closure or a message if the tab is not found.
+        
         
