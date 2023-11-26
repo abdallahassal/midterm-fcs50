@@ -130,5 +130,5 @@ def main():
             break
             print("\n")
 
-
+#User chooses tab operations: open, close, switch, display, open nested, sort, save, import, or exit, with corresponding function calls.
     
