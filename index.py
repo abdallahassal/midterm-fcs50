@@ -67,3 +67,9 @@ def sort_all_tabs(tabs):
         print(f"{index}. Title: {title}, URL: {url}")
 #the code sorts a list of tabs by title and prints the sorted tabs with their index, title, and URL.
 
+#function to save tabs
+
+def save_tabs(tabs):
+    with open("tabs.json", "w") as f:
+        json.dump(tabs, f, indent=2)
+    print("Tabs saved to 'tabs.json'.")
