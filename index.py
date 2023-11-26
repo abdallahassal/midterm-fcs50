@@ -73,3 +73,6 @@ def save_tabs(tabs):
     with open("tabs.json", "w") as f:
         json.dump(tabs, f, indent=2)
     print("Tabs saved to 'tabs.json'.")
+ #The code saves a list of tabs as a formatted JSON file named "tabs.json.
+ 
+ 
