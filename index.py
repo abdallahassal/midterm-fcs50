@@ -12,4 +12,11 @@ print("Successfully opened tab ")
 # function to close a tab
 def close_tab():
     tab_index = int(input("Enter the index of the tab: "))
-  
+    #I got this code from Google
+    if tab_index in tabs:
+        del tabs[tabs.keys()[tab_index]]
+
+        print("closed successfully")
+    else:
+         print("Tab not found.")
+        
