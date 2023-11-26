@@ -57,4 +57,5 @@ def open_nested_tab():
 
     tabs[parent_tab_index]["nested_tabs"].append(nested_tab)
     print(f"Nested tab '{new_tab_title}' opened successfully under tab '{parent_tab_index}'.")
-  
+    # Takes user input for parent tab index, new tab title, and URL. Appends a nested tab to the parent tab. Prints success message
+    
