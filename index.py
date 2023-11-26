@@ -44,4 +44,9 @@ def open_nested_tab():
     parent_tab_index = int(input("Enter the index of the parent tab"))
     new_tab_title = input("Enter the title of the new tab: ")
     new_tab_url = input("Enter the URL of the new tab: ")
-   
+    # Check if the parent tab exists
+    if parent_tab_index not in tabs:
+        print("Error: Parent tab at index does not exist.")
+        return
+    
+    
