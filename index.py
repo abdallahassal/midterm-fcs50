@@ -37,4 +37,5 @@ def display_all_tabs():
         print("No tabs are open.")
         return
     [print("{index}. Title: {title}, URL: {url})") for index, tab in enumerate(tabs.values(), start=1)]
+    #The code prints information about open tabs (titles and URLs), or a message if there are none
     
