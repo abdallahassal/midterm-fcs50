@@ -107,3 +107,28 @@ def main():
         print("7. Save Tabs")
         print("8. Import Tabs")
         print("9. Exit")
+ #Infinite loop presenting a menu for various tab operations: open, close, switch, display, open nested, sort, save, import, and exit
+        choice = input("Enter your choice: ")
+        match choice:
+         case 1:
+            open_tab()
+         case 2:
+            close_tab()
+         case 3:
+            switch_tab()
+         case 4:
+            display_all_tabs()
+         case 5:
+            open_nested_tab()
+         case 6:
+            sort_all_tabs()
+         case 7:
+            save_tabs()
+         case 8:
+            import_tabs()
+         case 9:
+            break
+            print("\n")
+
+
+    
