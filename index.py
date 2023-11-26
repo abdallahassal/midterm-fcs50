@@ -59,3 +59,9 @@ def open_nested_tab():
     print(f"Nested tab '{new_tab_title}' opened successfully under tab '{parent_tab_index}'.")
     # Takes user input for parent tab index, new tab title, and URL. Appends a nested tab to the parent tab. Prints success message
     
+# function to sort all tabs
+def sort_all_tabs(tabs):
+    sorted_tabs = sorted(tabs, key=lambda x: x[0])
+    print("Sorted tabs:")
+    for index, (title, url) in enumerate(sorted_tabs, start=1):
+        print(f"{index}. Title: {title}, URL: {url}")
